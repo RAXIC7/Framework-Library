@@ -1,9 +1,16 @@
 # Framework-Library
 
 The Framework Library offers a simple and easy way to manage and use all major FiveM frameworks in one place without having to write code for every single framework.
+
 This means for every functionality there is one single function that automatically executes the correct code for the framework that is currently being used.
+
 This can be very useful if you want to use multiple frameworks in your project or if you want to switch to another framework without having to rewrite your entire code.
+
 It also makes the code more readable and easier to understand and shortens the development time significantly.
+
+## frameworks.json
+The `frameworks.json` file is used to configure the Framework Library and to define which frameworks should be used.
+This is meant for the user so he can easily configure the settings for his framework in an easy and understandable way.
 
 ## Documentation
 The documentation for the Framework Library can be found [here](https://docs.garmingo.com/purchase-and-installation/frameworks).
