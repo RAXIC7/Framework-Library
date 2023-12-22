@@ -8,8 +8,8 @@ This can be very useful if you want to use multiple frameworks in your project o
 
 It also makes the code more readable and easier to understand and shortens the development time significantly.
 
-## frameworks.json
-The `frameworks.json` file is used to configure the Framework Library and to define which frameworks should be used.
+## framework.json
+The `framework.json` file is used to configure the Framework Library and to define which frameworks should be used.
 This is meant for the user so he can easily configure the settings for his framework in an easy and understandable way.
 
 ## Documentation
@@ -69,6 +69,32 @@ using FrameworkLibraryClient;
 Alternatively, you can also copy the content of the `FrameworkLibraryServer.cs` or `FrameworkLibraryClient.cs` file into your script.
 
 
+## fxmanifest.lua
+To use the Framework Library in your FiveM project, you will need to add it to your `fxmanifest.lua` file.
+For JS the Framework Library is usually compiled into your script and you don't need to add it to your `fxmanifest.lua` file.
+
+### LUA
+```lua
+files {
+    "framework.json",
+    "framework-client.lua"
+}
+```
+
+### C#
+```lua
+files {
+    "framework.json",
+    "FrameworkLibraryClient.net.dll"
+}
+```
+
+### JavaScript
+```lua
+files {
+    "framework.json",
+}
+```
 
 
 ## License
