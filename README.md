@@ -17,9 +17,9 @@ For every of the 3 supported languages (LUA, JavaScript, C#) the functions are t
 To use the Framework Library in your LUA project, simply add the following line to the top of your script:
 ```lua
 local Framework = require("framework-server")
-
+```
 or
-
+```lua
 local Framework = require("framework-client")
 ```
 
@@ -37,9 +37,9 @@ To use the Framework Library in your JavaScript project, you first have to add i
 Then you can import the Framework Library in your script:
 ```javascript
 import { Framework } from "@garmingo/framework-js-server";
-
+```
 or
-
+```javascript
 import { Framework } from "@garmingo/framework-js-client";
 ```
 
@@ -53,9 +53,9 @@ You will need to add the Framework Library to your project as a reference.
 To use the Framework Library in your C# project, simply add the following line to the top of your script:
 ```csharp
 using FrameworkLibraryServer;
-
+```
 or
-
+```csharp
 using FrameworkLibraryClient;
 ```
 
